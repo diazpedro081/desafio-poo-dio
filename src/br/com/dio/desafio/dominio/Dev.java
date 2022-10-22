@@ -90,4 +90,10 @@ public class Dev {
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "Dev [nome=" + nome + ", conteudosInscritos=" + conteudosInscritos + ", conteudosConcluidos="
+                + conteudosConcluidos + "]";
+    }
+
 }
