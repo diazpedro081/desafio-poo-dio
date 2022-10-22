@@ -16,9 +16,6 @@ public class Main {
         segundoCurso.setDescricao(" Curso voltado para Oreientação a objeto");
         segundoCurso.setCargaHoraria(12);
 
-        System.out.println(primeiroCurso);
-        System.out.println(segundoCurso);
-
         Mentoria primeiraMentoria = new Mentoria();
         primeiraMentoria.setTitulo(" Mentoria pro Curso Java");
         primeiraMentoria.setDescricao(" Mentoria voltado para iniciantes em Java");
@@ -29,6 +26,8 @@ public class Main {
         segundaMentoria.setDescricao(" Mentoria voltado para Java POO");
         segundaMentoria.setData(LocalDate.now());
 
+        System.out.println(primeiroCurso);
+        System.out.println(segundoCurso);
         System.out.println(primeiraMentoria);
         System.out.println(segundaMentoria);
     }
